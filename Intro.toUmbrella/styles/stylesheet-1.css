@@ -3,3 +3,8 @@
 body { margin:0; padding:0;}
 #home { background-color: yellow;} 
 .wrapper {background-color: #5AC1FF; max-width:1170px; margin-top:0; margin-bottom:0; margin-right: auto; margin-left:auto;}
+.column-gallery {
+float:left;}
+}
+.column-gallery img{width:100%;
+}
