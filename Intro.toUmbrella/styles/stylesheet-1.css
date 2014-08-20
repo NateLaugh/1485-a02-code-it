@@ -1,10 +1,33 @@
 @charset "UTF-8";
 /* CSS Document */
+*, *:before, *:afetr {- webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 body { margin:0; padding:0;}
-#home { background-color: yellow;} 
+#home { background-color: yellow;}
+#gallery {clear:both;}
 .wrapper {background-color: #5AC1FF; max-width:1170px; margin-top:0; margin-bottom:0; margin-right: auto; margin-left:auto;}
-.column-gallery {
-float:left;}
-}
-.column-gallery img{width:100%;
-}
+
+
+/* Columns */
+.column-features{ background-color:red; width:33%; float:left; - webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+	box-sizing: border-box; padding-right:5px}
+
+	
+.column-features img{
+	width:100%;} 
+	
+.column-gallery{ background-color:red; width:20%; float:left; - webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+	box-sizing: border-box; padding-right:5px}
+
+	
+.column-gallery img{
+	width:100%;} 
+	
+	.column-about{ background-color:red; width:25%; float:left; - webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+	box-sizing: border-box; padding-right:5px}
+
+	
+.column-about img{
+	width:100%;} 
+	
+h1, h2, h3, label, p, li, a{
+	font-family: 'Open Sans', sans-serif;
