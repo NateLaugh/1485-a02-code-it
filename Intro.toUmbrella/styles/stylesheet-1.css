@@ -11,7 +11,7 @@ body { margin:0; padding:0;}
 .column-features{ background-color:red; width:33%; float:left; - webkit-box-sizing: border-box; -moz-box-sizing: border-box;
 	box-sizing: border-box; padding-right:5px}
 
-	
+.clear {clear:both}
 .column-features img{
 	width:100%;} 
 	
