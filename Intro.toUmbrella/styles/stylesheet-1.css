@@ -1,27 +1,32 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
+/* Body */
 body {margin:0; padding: 0 }
 
 
 
-
+/* Navigations */
 nav li {float: left; display: inline;
 list-style-type: none; padding:0;}
 
 nav {width:40%; float: right;}
 
-nav a {display: block; width: 50px; paddinging-right: 70px;}
+nav a {display: block; padding-right: 10px;}
 
 
 
-
+/* Headings */
 h1, h2, h3, p, li, a {font-family: 'Open Sans', sans-serif;}
 
+header{background: white; overflow: auto; position: fixed; top: 30px;
+width: 100%; max-width: 1170px; margin: 0 auto; z-index: 1;}
 
 
-
-.logo {float:left;}
+/* Class's */
+.identity {float:left;}
 
 .wrapper {max-width; 1170px; background-color: yellow; margin: 0 auto;}
 
@@ -29,18 +34,29 @@ h1, h2, h3, p, li, a {font-family: 'Open Sans', sans-serif;}
 
 .column-features img, .column-screen img {width:100%;}
 
-.column-about, .column-footer{ background-color: ; width:25%;
-float:left;}
+.column-about, .column-footer{ background-color: ; width:25%; float:left;}
 
 .column-screen {width: 20%;}
 
 .column-screen img {width:100%}
 
+.home-image{position: absolute; bottom: 25px; right: 0;z-index: 0;}
+
+.introduction {float: left; width: 45%; margin-top: 350px;}
+
+.blockquote{width: 970px; text-align: center;}
 
 
 
-
+/* Other */
 #gallery, .quote-mark, .show-reel, .clear {clear:both;}
+
+#gallery{background-color: #fafafa;}
+
+#home{background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center; background-height: 100%; min-height: 780px;}
+
+#home, .showreel, #featuredin {background-color:f8e514; width:100%;}
+
 
 
 
