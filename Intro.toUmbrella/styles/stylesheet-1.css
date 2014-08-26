@@ -28,7 +28,7 @@ width: 100%; max-width: 1170px; margin: 0 auto; z-index: 1;}
 /* Class's */
 .identity {float:left;}
 
-.wrapper {max-width; 1170px; background-color: yellow; margin: 0 auto;}
+.wrapper {max-width: 1170px; background-color: yellow; margin: 0 auto;}
 
 .column-features, .column-screen{background-color:; width:33%; float:left; padding-right:30px;}
 
