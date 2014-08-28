@@ -6,6 +6,12 @@
 /* Body */
 body {margin:0; padding: 0 }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* Navigations */
 nav li {float: left; display: inline;
 list-style-type: none; padding:0;}
@@ -26,7 +32,7 @@ width: 100%; max-width: 1170px; margin: 0 auto; z-index: 1;}
 /* Class's */
 .identity {float:left;}
 
-.wrapper {max-width: 1170px; background-color: yellow; margin: 0 auto;}
+.wrapper {max-width: 1170px; margin: 0 auto;}
 
 .column-features, .column-screen{background-color:; width:33%; float:left; padding-right:30px;}
 
@@ -38,7 +44,7 @@ width: 100%; max-width: 1170px; margin: 0 auto; z-index: 1;}
 
 .column-screen img {width:100%}
 
-.home-image{position: absolute; bottom: 25px; right: 0;z-index: 0;}
+.home-image{position: absolute; bottom: 0; right: 0;z-index: 0;}
 
 .introduction {float: left; width: 45%; margin-top: 350px;}
 
@@ -56,7 +62,10 @@ width: 100%; max-width: 1170px; margin: 0 auto; z-index: 1;}
 #home, .showreel, #featuredin {background-color:f8e514; width:100%;}
 
 
-
+#home .wrapper {
+  position: relative;
+  min-height:780px;
+}
 
 
 
