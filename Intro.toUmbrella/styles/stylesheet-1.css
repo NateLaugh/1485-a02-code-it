@@ -4,7 +4,9 @@
 
 
 /* Body */
-body {margin:0; padding: 0 }
+body {
+	margin:0; padding: 0 
+	}
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -18,23 +20,30 @@ list-style-type: none; padding:0;}
 
 nav {width:40%; float: right;}
 
-nav a {display: block; padding-right: 10px;}
+nav a {color: grey; display: block; width:50px; padding-right: 70px; text-decoration: none;}
 
+nav a:hover{
+	color:black;
+}
 
 
 /* Headings */
-h1, h2, h3, p, li, a {font-family: 'Open Sans', sans-serif;}
+h1, h2, h3, p, li, a{font-family: 'Open Sans', sans-serif;}
 
 header{background: white; overflow: auto; position: fixed; top: 30px;
 width: 100%; max-width: 1170px; margin: 0 auto; z-index: 1;}
+
+h4{
+	margin:0;
+}
 
 
 /* Class's */
 .identity {float:left;}
 
-.wrapper {max-width: 1170px; margin: 0 auto;}
+.wrapper {max-width: 1170px; margin: 0 auto; background-color:;}
 
-.column-features, .column-screen{background-color:; width:33%; float:left; padding-right:30px;}
+.column-features, .column-screen{width:33%; float:left; padding-right:30px;}
 
 .column-features img, .column-screen img {width:100%;}
 
@@ -50,10 +59,19 @@ width: 100%; max-width: 1170px; margin: 0 auto; z-index: 1;}
 
 .blockquote{width: 970px; text-align: center;}
 
+.column-about, .column-footer{background-color: ; width: 25%; float:left;}
+
+.feature-details {padding:20px; overflow: auto; cursor:default;}
+
+.feature-details: hover{background: #fefce9; width:100%; display:block;}
+
+.feature-details: span {float:left; font size:30px; line-height: 30px; width:15%; margin-top:0;}
+
+.feature-content{ width:85%; float:left;}
 
 
-/* Other */
-#gallery, .quote-mark, .show-reel, .clear {clear:both;}
+/* #'s */
+#gallery, .quote-mark, .show-reel, .clear, .column-footer{clear:both;}
 
 #gallery{background-color: #fafafa;}
 
@@ -67,5 +85,15 @@ width: 100%; max-width: 1170px; margin: 0 auto; z-index: 1;}
   min-height:780px;
 }
 
+#about{background-color:: #fafafa;}
+  
+#contract img{float: right;}
 
-
+  
+/* Other */
+input{
+	width:570px;
+	border:0px solid #000000;
+	border-bottom-width:1px;
+	background-color-:transparent;
+}
