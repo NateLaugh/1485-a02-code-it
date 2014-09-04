@@ -4,8 +4,8 @@
 
 
 /* Body */
-body {
-	margin:0; padding: 0 
+p, body {
+	margin:0; padding: 0; 
 	}
 
 *, *:before, *:after {
@@ -20,7 +20,7 @@ list-style-type: none; padding:0;}
 
 nav {width:40%; float: right;}
 
-nav a {color: grey; display: block; width:50px; padding-right: 70px; text-decoration: none;}
+nav a {color: grey; display: block; width:50px; padding-right: 70px; text-decoration: non;}
 
 nav a:hover{
 	color:black;
@@ -37,6 +37,10 @@ h4{
 	margin:0;
 }
 
+h2{
+	text-align:center;
+}
+
 
 /* Class's */
 .identity {float:left;}
@@ -51,7 +55,7 @@ h4{
 
 .column-screen {width: 20%;}
 
-.column-screen img {width:100%}
+.column-screen img {width:100%;}
 
 .home-image{position: absolute; bottom: 0; right: 0;z-index: 0;}
 
@@ -63,11 +67,69 @@ h4{
 
 .feature-details {padding:20px; overflow: auto; cursor:default;}
 
-.feature-details: hover{background: #fefce9; width:100%; display:block;}
+.feature-details:hover{background: #fefce9; width:100%; display:block;}
 
-.feature-details: span {float:left; font size:30px; line-height: 30px; width:15%; margin-top:0;}
+.feature-details:span{float:left; font size:30px; line-height: 30px; width:15%; margin-top:0;}
 
 .feature-content{ width:85%; float:left;}
+
+.intro-title{
+	font-size:40px;
+}
+
+.sect-descript{
+	text-height:25px;
+	font-size:15px;
+	text-align:center;
+}
+
+a.button{
+	border:3px solid #000;
+	padding:15px 30px;
+	text-decoration: none;
+	color:#000;
+	font-size:22px;
+}
+
+a.button:hover{
+	opacity: .5;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.container{
+	width: 270px;
+	margin: 50px auto;
+}
+
+a.container{
+  float: left;
+  position: relative;
+}
+
+a.container img{
+  display: block;
+}
+
+a.container span{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #ddd;
+  padding: 20px;
+}
+
+a.container:hover span{
+  display: block;
+}
+
+
 
 
 /* #'s */
@@ -77,8 +139,11 @@ h4{
 
 #home{background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center; background-height: 100%; min-height: 780px;}
 
-#home, .showreel, #featuredin {background-color:f8e514; width:100%;}
+#home, .showreel, #featuredin {background-color:#f8e514; width:100%;}
 
+#featuredin{
+	height:500px;
+}
 
 #home .wrapper {
   position: relative;
@@ -91,9 +156,44 @@ h4{
 
   
 /* Other */
+button{
+	border:0;
+	background: transparent;
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	padding: 0;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+button:hover{
+	opacity: .5;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
 input{
 	width:570px;
 	border:0px solid #000000;
 	border-bottom-width:1px;
 	background-color-:transparent;
+}
+
+input{
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	padding: 25px 0;
+	font-size: 12px;
+}
+
+input:focus{
+	outline: 0;
+}
+
+footer input{
+	width: 260px;
 }
