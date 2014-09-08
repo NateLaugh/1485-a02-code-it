@@ -192,37 +192,11 @@ ul{list-style: none;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#section-description {
+.section-description {
 	line-height : 25px;
 	font-size: 14px;
 	text-align: center;
 }
-
-
-
-/*header*/
-
-
-
-/* navigation */
-
-
-/*home*/
-
-
 
 .intro-list {
 	font-size: 14px; 
@@ -259,51 +233,6 @@ ul{list-style: none;}
 
 .fade {
 	opacity: .5;
-}
-
-.column-gallery, .column-featured-in {
-	width: 20%;
-	float: left;
-	
-	padding-right: 45px;
-}
-
-#features img, #gallery img {
-	width: 100%;
-}
-
-/*about*/
-
-
-
-/*blockquote*/
-
-.blockquote {clear: both; padding-bottom: 250px;}
-
-.quote-mark {padding-top: 130px; padding-bottom: 60px;}
-
-.blockquote img {display: block; margin-left: auto; margin-right: auto}
-
-.blockquote h4, #blockquote p {text-align: center;}
-
-blockquote {line-height : 25px; font-size: 14px; text-align: center; padding-bottom: 80px;}
-
-.blockquote .job {color: gray; font-size: 10px;}
-
-/*featured in*/
-
-#featured-in {
-	padding-top: 100px;
-	clear: both;
-	background-color: #f8e514;
-	overflow: auto;
-}
-
-#featured-in h3, #featured-in img {
-	padding-bottom: 150px;
-}
-
-/*contact*/
 
 #contact {
 	padding-top: 100px;
@@ -370,7 +299,6 @@ blockquote {line-height : 25px; font-size: 14px; text-align: center; padding-bot
 	padding-right: 5px;
 }
 
-/*footer*/
 
 footer {
 	padding-top: 150px;
@@ -389,14 +317,12 @@ footer {
 .clear{
     zoom:1;
 }    
-/* Form wrapper styling */
+
 .form-wrapper {
     width: 100%;
     border-radius: 3px 0 0 3px;
     border:2px solid #ccc;
 }
-
-/* Form text input */
 
 .form-wrapper input {
     padding: 10px 5px;
@@ -408,9 +334,6 @@ footer {
     outline: 0;
 }
 
- 
-
-/* Form submit button */
 .form-wrapper button {
     width:15%;
     overflow: visible;
